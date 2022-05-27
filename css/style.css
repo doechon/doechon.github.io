@@ -20,6 +20,23 @@ nav {
   font-weight: bold;
   padding: 0 1em;
 }
+figure {
+  /* border: thin #c0c0c0 solid; */
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+
 img {
-  width: 50%s;
+  /* max-width: 50%; */
+}
+
+figcaption {
+  /* background-color: #222; */
+  /* color: #fff; */
+  /* font: italic smaller sans-serif; */
+  /* padding: 3px; */
+  text-align: center;
 }
