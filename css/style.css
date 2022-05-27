@@ -1,4 +1,5 @@
 nav {
+  float: right;
   border-bottom: 1px solid black;
 }
 
@@ -18,4 +19,7 @@ nav {
   font-size: 80%;
   font-weight: bold;
   padding: 0 1em;
+}
+img {
+  width: 50%s;
 }
