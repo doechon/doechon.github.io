@@ -13,12 +13,12 @@
   </head>
   <body>
     <header class="header">
-      <nav class="links">
-        <ol>
-          <li class="link"><a href="#aboutme">About me</a></li>
-          <li class="link"><a href="#myprojects">My projects</a></li>
-          <li class="link"><a href="#contactme">Contact me</a></li>
-        </ol>
+      <nav class="header__nav">
+        <ul class="header__links">
+          <li class="header__link"><a href="#aboutme">About me</a></li>
+          <li class="header__link"><a href="#myprojects">My projects</a></li>
+          <li class="header__link"><a href="#contactme">Contact me</a></li>
+        </ul>
       </nav>
     </header>
     <main class="main">
@@ -26,11 +26,13 @@
         <h2 id="aboutme">About me</h2>
         <div class="about-me__description">
           <figure class="about-me__figure">
-            <img
-              src="img/myself.jpg"
-              alt="photo of myself"
-              class="about-me__img"
-            />
+            <a href="#aboutme">
+              <img
+                src="img/myself.jpg"
+                alt="photo of myself"
+                class="about-me__img"
+              />
+            </a>
             <figcaption class="about-me__figcaption">
               <h3>Ivan Chebykin</h3>
             </figcaption>
@@ -47,11 +49,12 @@
         <div class="projects">
           <div class="project">
             <figure class="project__figure">
-              <img
-                src="img/my-projects/the_quiz.png"
-                alt=""
-                class="project__img"
-              />
+              <a href="#myprojects"
+                ><img
+                  src="img/my-projects/the_quiz.png"
+                  alt=""
+                  class="project__img"
+              /></a>
               <figcaption class="project_figcaption">
                 <div class="project__name">
                   <span>TheQuiz</span>
@@ -61,10 +64,20 @@
                 </div>
                 <div class="project__links">
                   <div class="project__link">
-                    <a href="https://github.com/CicadaInc/thequiz">github</a>
+                    <a
+                      href="https://github.com/CicadaInc/thequiz"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >github</a
+                    >
                   </div>
                   <div class="project__link">
-                    <a href="https://youtu.be/VA0tBxHlNO4">youtube</a>
+                    <a
+                      href="https://youtu.be/VA0tBxHlNO4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >youtube</a
+                    >
                   </div>
                 </div>
               </figcaption>
@@ -72,11 +85,12 @@
           </div>
           <div class="project">
             <figure class="project__figure">
-              <img
-                src="img/my-projects/go-green.jpg"
-                alt=""
-                class="project__img"
-              />
+              <a href="#myprojects"
+                ><img
+                  src="img/my-projects/go-green.jpg"
+                  alt=""
+                  class="project__img"
+              /></a>
               <figcaption class="project_figcaption">
                 <div class="project__name">
                   <span>GoGreen</span>
@@ -86,7 +100,12 @@
                 </div>
                 <div class="project__links">
                   <div class="project__link">
-                    <a href="https://github.com/Vldmr314/GoGreen">github</a>
+                    <a
+                      href="https://github.com/Vldmr314/GoGreen"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >github</a
+                    >
                   </div>
                 </div>
               </figcaption>
@@ -94,11 +113,12 @@
           </div>
           <div class="project">
             <figure class="project__figure">
-              <img
-                src="img/my-projects/no_image.jpg"
-                alt=""
-                class="project__img"
-              />
+              <a href="#myprojects"
+                ><img
+                  src="img/my-projects/no_image.jpg"
+                  alt=""
+                  class="project__img"
+              /></a>
               <figcaption class="project_figcaption">
                 <div class="project__name">
                   <span>Tetropentada</span>
@@ -108,7 +128,10 @@
                 </div>
                 <div class="project__links">
                   <div class="project__link">
-                    <a href="https://github.com/CicadaInc/tetropentada"
+                    <a
+                      href="https://github.com/CicadaInc/tetropentada"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       >github</a
                     >
                   </div>

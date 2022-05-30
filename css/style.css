@@ -3,13 +3,22 @@ body {
   margin: auto;
   max-width: 750px;
 }
-img {
-  /* max-width: 200px; */
+.header {
+}
+.header__nav {
+}
+.header__links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header__link {
 }
 .about-me {
 }
 .about-me__description {
-  display: flex;
 }
 .about-me__figure {
 }
@@ -35,6 +44,7 @@ img {
   max-width: 200px;
 }
 .project__name {
+  font-weight: bold;
 }
 .project__description {
 }
@@ -52,4 +62,9 @@ img {
 }
 .contact-me__img {
   max-width: 100px;
+}
+.footer {
+  margin-top: 20px;
+  /* display: flex; */
+  justify-content: /center;
 }
