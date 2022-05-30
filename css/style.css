@@ -1,10 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: auto;
+  max-width: 750px;
 }
 img {
   /* max-width: 200px; */
 }
 .about-me {
+}
+.about-me__description {
+  display: flex;
 }
 .about-me__figure {
 }
@@ -15,11 +20,19 @@ img {
 }
 .about-me__figcaption {
 }
+.myprojects {
+  /* display: flex; */
+}
+.projects {
+  display: flex;
+}
 .project {
+  /* display: flex; */
 }
 .project__figure {
 }
 .project__img {
+  max-width: 200px;
 }
 .project__name {
 }
@@ -28,4 +41,15 @@ img {
 .project__links {
 }
 .project__link {
+}
+.contact-me {
+}
+.contact-me__links {
+  display: flex;
+  justify-content: center;
+}
+.contact-me__link {
+}
+.contact-me__img {
+  max-width: 100px;
 }
