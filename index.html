@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Doechon's portfolio</title>
   </head>
   <body>
@@ -18,9 +24,14 @@
     <main class="main">
       <div class="about-me">
         <h2 id="aboutme">About me</h2>
-        <figure>
-          <img src="img/myself.jpg" alt="photo of myself" />
-          <figcaption>
+        <figure class="about-me__figure">
+          <img
+            src="img/myself.jpg"
+            alt="photo of myself"
+            class="about-me__img"
+          />
+          <figcaption class="about-me__figcaption">
+            <h3>Ivan Chebykin</h3>
             I love coding 👨‍💻, playing guitar 🎸 and speaking to people 🗣️. My
             stack of technologies: python, java, web (html, css, js).
           </figcaption>
@@ -36,7 +47,7 @@
               alt=""
               class="project__img"
             />
-            <figcaption class="project__fig">
+            <figcaption class="project_figcaption">
               <div class="project__name">
                 <span>TheQuiz</span>
               </div>
@@ -61,7 +72,7 @@
               alt=""
               class="project__img"
             />
-            <figcaption class="project__fig">
+            <figcaption class="project_figcaption">
               <div class="project__name">
                 <span>GoGreen</span>
               </div>
@@ -86,7 +97,7 @@
               alt=""
               class="project__img"
             />
-            <figcaption class="project__fig">
+            <figcaption class="project_figcaption">
               <div class="project__name">
                 <span>Tetropentada</span>
               </div>
