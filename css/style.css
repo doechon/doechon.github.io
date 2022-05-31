@@ -2,6 +2,24 @@ body {
   font-family: "Roboto", sans-serif;
   margin: auto;
   max-width: 750px;
+  background-image: url("https://images.pexels.com/photos/1643113/pexels-photo-1643113.jpeg?cs=srgb&dl=pexels-aron-visuals-1643113.jpg&fm=jpg");
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background-color: #e5ffe7;
+}
+.bg-red {
+  background-color: #ffe5e5;
+}
+.bg-green2 {
+  background-color: #f0fce4;
 }
 .header {
 }
@@ -29,7 +47,7 @@ body {
 }
 .about-me__figcaption {
 }
-.myprojects {
+.my-projects {
   /* display: flex; */
 }
 .projects {
@@ -41,7 +59,7 @@ body {
 .project__figure {
 }
 .project__img {
-  max-width: 200px;
+  max-width: 150px;
 }
 .project__name {
   font-weight: bold;
@@ -66,5 +84,5 @@ body {
 .footer {
   margin-top: 20px;
   /* display: flex; */
-  justify-content: /center;
+  justify-content: center;
 }
