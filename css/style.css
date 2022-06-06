@@ -10,7 +10,10 @@ body {
   border-radius: 20px;
 }
 .bg-yellow {
-  background: #fff9dc;
+  background: #faffe5;
+}
+.bg-blue {
+  background-color: #e5efff;
 }
 .bg-green {
   background-color: #e5ffe7;
