@@ -33,7 +33,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .header__link {
 }
@@ -77,21 +77,15 @@ body {
 }
 .contact-me__links {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .contact-me__link {
 }
 .contact-me__img {
   max-width: 100px;
 }
-.dog {
-  /* justify-content: center; */
-}
-.dog__image {
-  max-width: 400px;
-}
 .footer {
   margin-top: 20px;
   /* display: flex; */
-  /* justify-content: center; */
+  justify-content: center;
 }
