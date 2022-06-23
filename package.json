@@ -18,6 +18,15 @@
   },
   "homepage": "https://github.com/doechon/doechon.github.io#readme",
   "devDependencies": {
-    "rollup": "^2.75.7"
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/jquery": "^3.5.14",
+    "rollup": "^2.75.7",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "terser": "^5.14.1"
   }
 }
