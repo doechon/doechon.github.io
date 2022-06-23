@@ -1,0 +1,23 @@
+{
+  "name": "doechon.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doechon/doechon.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doechon/doechon.github.io/issues"
+  },
+  "homepage": "https://github.com/doechon/doechon.github.io#readme",
+  "devDependencies": {
+    "rollup": "^2.75.7"
+  }
+}
