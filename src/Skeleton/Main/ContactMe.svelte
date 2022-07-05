@@ -29,3 +29,21 @@
       </div>
     </div>
   </div>
+
+<style>
+.contact-me__links {
+  display: flex;
+  justify-content: center;
+}
+.contact-me__img {
+  max-width: 100px;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.bg-red {
+  background-color: #ffe5e5;
+}
+</style>

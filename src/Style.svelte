@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
     body {
   font-family: "Roboto", sans-serif;
   margin: auto;
@@ -25,7 +25,7 @@
 .bg-green2 {
   background-color: #f0fce4;
 }
-.header {
+/* .header {
 }
 .header__nav {
 }
@@ -37,8 +37,8 @@
   justify-content: space-between;
 }
 .header__link {
-}
-.about-me {
+} */
+/* .about-me {
 }
 .about-me__description {
 }
@@ -50,7 +50,7 @@
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .about-me__figcaption {
-}
+} */
 .my-projects {
   /* display: flex; */
 }
@@ -91,4 +91,4 @@
   justify-content: center;
 }
 
-</style>
+</style> -->

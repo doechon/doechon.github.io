@@ -96,3 +96,23 @@
       </div>
     </div>
   </div>
+
+  <style>
+    .card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+    .bg-green {
+  background-color: #e5ffe7;
+}
+    .projects {
+  display: flex;
+}
+.project__img {
+  max-width: 150px;
+}
+.project__name {
+  font-weight: bold;
+}
+  </style>
