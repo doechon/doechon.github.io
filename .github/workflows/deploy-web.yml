@@ -2,7 +2,7 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [main]
+    branches: [svelte_version]
 
 jobs:
   build-and-deploy:
