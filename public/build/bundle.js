@@ -438,22 +438,22 @@ var app = (function () {
     			a2 = element("a");
     			a2.textContent = "Contact me";
     			attr_dev(a0, "href", "#aboutme");
-    			add_location(a0, file$6, 3, 33, 136);
+    			add_location(a0, file$6, 3, 31, 127);
     			attr_dev(li0, "class", "header__link");
-    			add_location(li0, file$6, 3, 8, 111);
+    			add_location(li0, file$6, 3, 6, 102);
     			attr_dev(a1, "href", "#myprojects");
-    			add_location(a1, file$6, 4, 33, 207);
+    			add_location(a1, file$6, 4, 31, 195);
     			attr_dev(li1, "class", "header__link");
-    			add_location(li1, file$6, 4, 8, 182);
+    			add_location(li1, file$6, 4, 6, 170);
     			attr_dev(a2, "href", "#contactme");
-    			add_location(a2, file$6, 5, 33, 284);
+    			add_location(a2, file$6, 5, 31, 269);
     			attr_dev(li2, "class", "header__link");
-    			add_location(li2, file$6, 5, 8, 259);
-    			attr_dev(ul, "class", "header__links svelte-3t070q");
-    			add_location(ul, file$6, 2, 6, 75);
+    			add_location(li2, file$6, 5, 6, 244);
+    			attr_dev(ul, "class", "header__links svelte-1oi6a6i");
+    			add_location(ul, file$6, 2, 4, 69);
     			attr_dev(nav, "class", "header__nav");
-    			add_location(nav, file$6, 1, 4, 42);
-    			attr_dev(header, "class", "header card bg-blue svelte-3t070q");
+    			add_location(nav, file$6, 1, 2, 39);
+    			attr_dev(header, "class", "header card bg-blue svelte-1oi6a6i");
     			add_location(header, file$6, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -531,10 +531,10 @@ var app = (function () {
     	let img;
     	let img_src_value;
     	let t2;
+    	let p;
+    	let t4;
     	let figcaption;
     	let h3;
-    	let t4;
-    	let p;
 
     	const block = {
     		c: function create() {
@@ -547,29 +547,29 @@ var app = (function () {
     			a = element("a");
     			img = element("img");
     			t2 = space();
+    			p = element("p");
+    			p.textContent = "I love coding 👨‍💻, playing guitar 🎸 and speaking to people 🗣️. My stack\n        of technologies: python, java, web (html, css, js).";
+    			t4 = space();
     			figcaption = element("figcaption");
     			h3 = element("h3");
     			h3.textContent = "Ivan Chebykin";
-    			t4 = space();
-    			p = element("p");
-    			p.textContent = "I love coding 👨‍💻, playing guitar 🎸 and speaking to people 🗣️. My\r\n          stack of technologies: python, java, web (html, css, js).";
     			attr_dev(h2, "id", "aboutme");
-    			add_location(h2, file$5, 1, 4, 43);
+    			add_location(h2, file$5, 1, 2, 40);
     			if (!src_url_equal(img.src, img_src_value = "img/myself.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "photo of myself");
-    			attr_dev(img, "class", "about-me__img svelte-1426ps5");
-    			add_location(img, file$5, 7, 10, 265);
+    			attr_dev(img, "class", "about-me__img svelte-1sfl9cp");
+    			add_location(img, file$5, 6, 8, 235);
     			attr_dev(a, "href", "#aboutme");
-    			add_location(a, file$5, 4, 8, 165);
-    			add_location(h3, file$5, 15, 10, 511);
+    			add_location(a, file$5, 4, 6, 153);
+    			add_location(p, file$5, 8, 6, 325);
+    			add_location(h3, file$5, 13, 8, 540);
     			attr_dev(figcaption, "class", "about-me__figcaption");
-    			add_location(figcaption, file$5, 14, 8, 458);
-    			add_location(p, file$5, 17, 8, 566);
+    			add_location(figcaption, file$5, 12, 6, 490);
     			attr_dev(figure, "class", "about-me__figure");
-    			add_location(figure, file$5, 3, 6, 122);
+    			add_location(figure, file$5, 3, 4, 113);
     			attr_dev(div0, "class", "about-me__description");
-    			add_location(div0, file$5, 2, 4, 79);
-    			attr_dev(div1, "class", "about-me card bg-yellow svelte-1426ps5");
+    			add_location(div0, file$5, 2, 2, 73);
+    			attr_dev(div1, "class", "about-me card bg-yellow svelte-1sfl9cp");
     			add_location(div1, file$5, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -584,10 +584,10 @@ var app = (function () {
     			append_dev(figure, a);
     			append_dev(a, img);
     			append_dev(figure, t2);
+    			append_dev(figure, p);
+    			append_dev(figure, t4);
     			append_dev(figure, figcaption);
     			append_dev(figcaption, h3);
-    			append_dev(figure, t4);
-    			append_dev(figure, p);
     		},
     		p: noop,
     		i: noop,
@@ -770,95 +770,95 @@ var app = (function () {
     			a6 = element("a");
     			a6.textContent = "github";
     			attr_dev(h2, "id", "myprojects");
-    			add_location(h2, file$4, 1, 4, 45);
-    			add_location(p0, file$4, 2, 4, 87);
+    			add_location(h2, file$4, 1, 2, 42);
+    			add_location(p0, file$4, 2, 2, 81);
     			if (!src_url_equal(img0.src, img0_src_value = "img/my-projects/the_quiz.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
-    			attr_dev(img0, "class", "project__img svelte-1e21fv5");
-    			add_location(img0, file$4, 7, 13, 279);
+    			attr_dev(img0, "class", "project__img svelte-r9ns41");
+    			add_location(img0, file$4, 7, 11, 258);
     			attr_dev(a0, "href", "#myprojects");
-    			add_location(a0, file$4, 6, 10, 243);
-    			add_location(span0, file$4, 14, 14, 517);
-    			attr_dev(div0, "class", "project__name svelte-1e21fv5");
-    			add_location(div0, file$4, 13, 12, 474);
-    			add_location(p1, file$4, 17, 14, 621);
+    			add_location(a0, file$4, 6, 8, 225);
+    			add_location(span0, file$4, 15, 12, 486);
+    			attr_dev(div0, "class", "project__name svelte-r9ns41");
+    			add_location(div0, file$4, 14, 10, 446);
+    			add_location(p1, file$4, 18, 12, 581);
     			attr_dev(div1, "class", "project__description");
-    			add_location(div1, file$4, 16, 12, 571);
+    			add_location(div1, file$4, 17, 10, 534);
     			attr_dev(a1, "href", "https://github.com/CicadaInc/thequiz");
     			attr_dev(a1, "target", "_blank");
     			attr_dev(a1, "rel", "noopener noreferrer");
-    			add_location(a1, file$4, 21, 16, 784);
+    			add_location(a1, file$4, 22, 14, 732);
     			attr_dev(div2, "class", "project__link");
-    			add_location(div2, file$4, 20, 14, 739);
+    			add_location(div2, file$4, 21, 12, 690);
     			attr_dev(a2, "href", "https://youtu.be/VA0tBxHlNO4");
     			attr_dev(a2, "target", "_blank");
     			attr_dev(a2, "rel", "noopener noreferrer");
-    			add_location(a2, file$4, 29, 16, 1061);
+    			add_location(a2, file$4, 29, 14, 968);
     			attr_dev(div3, "class", "project__link");
-    			add_location(div3, file$4, 28, 14, 1016);
+    			add_location(div3, file$4, 28, 12, 926);
     			attr_dev(div4, "class", "project__links");
-    			add_location(div4, file$4, 19, 12, 695);
+    			add_location(div4, file$4, 20, 10, 649);
     			attr_dev(figcaption0, "class", "project_figcaption");
-    			add_location(figcaption0, file$4, 12, 10, 421);
+    			add_location(figcaption0, file$4, 13, 8, 396);
     			attr_dev(figure0, "class", "project__figure");
-    			add_location(figure0, file$4, 5, 8, 199);
+    			add_location(figure0, file$4, 5, 6, 184);
     			attr_dev(div5, "class", "project");
-    			add_location(div5, file$4, 4, 6, 168);
+    			add_location(div5, file$4, 4, 4, 156);
     			if (!src_url_equal(img1.src, img1_src_value = "img/my-projects/go-green.jpg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
-    			attr_dev(img1, "class", "project__img svelte-1e21fv5");
-    			add_location(img1, file$4, 43, 13, 1467);
+    			attr_dev(img1, "class", "project__img svelte-r9ns41");
+    			add_location(img1, file$4, 42, 11, 1315);
     			attr_dev(a3, "href", "#myprojects");
-    			add_location(a3, file$4, 42, 10, 1431);
-    			add_location(span1, file$4, 50, 14, 1705);
-    			attr_dev(div6, "class", "project__name svelte-1e21fv5");
-    			add_location(div6, file$4, 49, 12, 1662);
-    			add_location(p2, file$4, 53, 14, 1809);
+    			add_location(a3, file$4, 41, 8, 1282);
+    			add_location(span1, file$4, 50, 12, 1543);
+    			attr_dev(div6, "class", "project__name svelte-r9ns41");
+    			add_location(div6, file$4, 49, 10, 1503);
+    			add_location(p2, file$4, 53, 12, 1638);
     			attr_dev(div7, "class", "project__description");
-    			add_location(div7, file$4, 52, 12, 1759);
+    			add_location(div7, file$4, 52, 10, 1591);
     			attr_dev(a4, "href", "https://github.com/Vldmr314/GoGreen");
     			attr_dev(a4, "target", "_blank");
     			attr_dev(a4, "rel", "noopener noreferrer");
-    			add_location(a4, file$4, 57, 16, 1992);
+    			add_location(a4, file$4, 57, 14, 1809);
     			attr_dev(div8, "class", "project__link");
-    			add_location(div8, file$4, 56, 14, 1947);
+    			add_location(div8, file$4, 56, 12, 1767);
     			attr_dev(div9, "class", "project__links");
-    			add_location(div9, file$4, 55, 12, 1903);
+    			add_location(div9, file$4, 55, 10, 1726);
     			attr_dev(figcaption1, "class", "project_figcaption");
-    			add_location(figcaption1, file$4, 48, 10, 1609);
+    			add_location(figcaption1, file$4, 48, 8, 1453);
     			attr_dev(figure1, "class", "project__figure");
-    			add_location(figure1, file$4, 41, 8, 1387);
+    			add_location(figure1, file$4, 40, 6, 1241);
     			attr_dev(div10, "class", "project");
-    			add_location(div10, file$4, 40, 6, 1356);
+    			add_location(div10, file$4, 39, 4, 1213);
     			if (!src_url_equal(img2.src, img2_src_value = "img/my-projects/no_image.jpg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "");
-    			attr_dev(img2, "class", "project__img svelte-1e21fv5");
-    			add_location(img2, file$4, 71, 13, 2404);
+    			attr_dev(img2, "class", "project__img svelte-r9ns41");
+    			add_location(img2, file$4, 70, 11, 2162);
     			attr_dev(a5, "href", "#myprojects");
-    			add_location(a5, file$4, 70, 10, 2368);
-    			add_location(span2, file$4, 78, 14, 2642);
-    			attr_dev(div11, "class", "project__name svelte-1e21fv5");
-    			add_location(div11, file$4, 77, 12, 2599);
-    			add_location(p3, file$4, 81, 14, 2751);
+    			add_location(a5, file$4, 69, 8, 2129);
+    			add_location(span2, file$4, 78, 12, 2390);
+    			attr_dev(div11, "class", "project__name svelte-r9ns41");
+    			add_location(div11, file$4, 77, 10, 2350);
+    			add_location(p3, file$4, 81, 12, 2490);
     			attr_dev(div12, "class", "project__description");
-    			add_location(div12, file$4, 80, 12, 2701);
+    			add_location(div12, file$4, 80, 10, 2443);
     			attr_dev(a6, "href", "https://github.com/CicadaInc/tetropentada");
     			attr_dev(a6, "target", "_blank");
     			attr_dev(a6, "rel", "noopener noreferrer");
-    			add_location(a6, file$4, 85, 16, 2933);
+    			add_location(a6, file$4, 85, 14, 2660);
     			attr_dev(div13, "class", "project__link");
-    			add_location(div13, file$4, 84, 14, 2888);
+    			add_location(div13, file$4, 84, 12, 2618);
     			attr_dev(div14, "class", "project__links");
-    			add_location(div14, file$4, 83, 12, 2844);
+    			add_location(div14, file$4, 83, 10, 2577);
     			attr_dev(figcaption2, "class", "project_figcaption");
-    			add_location(figcaption2, file$4, 76, 10, 2546);
+    			add_location(figcaption2, file$4, 76, 8, 2300);
     			attr_dev(figure2, "class", "project__figure");
-    			add_location(figure2, file$4, 69, 8, 2324);
+    			add_location(figure2, file$4, 68, 6, 2088);
     			attr_dev(div15, "class", "project");
-    			add_location(div15, file$4, 68, 6, 2293);
-    			attr_dev(div16, "class", "projects svelte-1e21fv5");
-    			add_location(div16, file$4, 3, 4, 138);
-    			attr_dev(div17, "class", "my-projects card bg-green svelte-1e21fv5");
+    			add_location(div15, file$4, 67, 4, 2060);
+    			attr_dev(div16, "class", "projects svelte-r9ns41");
+    			add_location(div16, file$4, 3, 2, 129);
+    			attr_dev(div17, "class", "my-projects card bg-green svelte-r9ns41");
     			add_location(div17, file$4, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -1001,30 +1001,30 @@ var app = (function () {
     			a1 = element("a");
     			img1 = element("img");
     			attr_dev(h2, "id", "contactme");
-    			add_location(h2, file$3, 1, 4, 42);
+    			add_location(h2, file$3, 1, 2, 39);
     			if (!src_url_equal(img0.src, img0_src_value = "img/contact-me/github.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "github");
-    			attr_dev(img0, "class", "contact-me__img svelte-1l9pl1i");
-    			add_location(img0, file$3, 9, 10, 295);
+    			attr_dev(img0, "class", "contact-me__img svelte-m0kkli");
+    			add_location(img0, file$3, 9, 8, 268);
     			attr_dev(a0, "href", "https://github.com/doechon");
     			attr_dev(a0, "target", "_blank");
     			attr_dev(a0, "rel", "noopener noreferrer");
-    			add_location(a0, file$3, 4, 8, 161);
+    			add_location(a0, file$3, 4, 6, 149);
     			attr_dev(div0, "class", "contact-me__link");
-    			add_location(div0, file$3, 3, 6, 121);
+    			add_location(div0, file$3, 3, 4, 112);
     			if (!src_url_equal(img1.src, img1_src_value = "img/contact-me/telegram.png")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "telegram");
-    			attr_dev(img1, "class", "contact-me__img svelte-1l9pl1i");
-    			add_location(img1, file$3, 22, 10, 625);
+    			attr_dev(img1, "class", "contact-me__img svelte-m0kkli");
+    			add_location(img1, file$3, 18, 8, 528);
     			attr_dev(a1, "href", "https://t.me/doechon");
     			attr_dev(a1, "target", "_blank");
     			attr_dev(a1, "rel", "noopener noreferrer");
-    			add_location(a1, file$3, 17, 8, 497);
+    			add_location(a1, file$3, 17, 6, 446);
     			attr_dev(div1, "class", "contact-me__link");
-    			add_location(div1, file$3, 16, 6, 457);
-    			attr_dev(div2, "class", "contact-me__links svelte-1l9pl1i");
-    			add_location(div2, file$3, 2, 4, 82);
-    			attr_dev(div3, "class", "contact-me card bg-red svelte-1l9pl1i");
+    			add_location(div1, file$3, 16, 4, 409);
+    			attr_dev(div2, "class", "contact-me__links svelte-m0kkli");
+    			add_location(div2, file$3, 2, 2, 76);
+    			attr_dev(div3, "class", "contact-me card bg-red svelte-m0kkli");
     			add_location(div3, file$3, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -1208,7 +1208,7 @@ var app = (function () {
     		c: function create() {
     			li = element("li");
     			t = text(t_value);
-    			add_location(li, file$2, 44, 6, 1243);
+    			add_location(li, file$2, 44, 6, 1226);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -1258,9 +1258,9 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(h1, file$2, 41, 4, 1150);
-    			add_location(ul, file$2, 42, 4, 1193);
-    			add_location(main, file$2, 40, 2, 1138);
+    			add_location(h1, file$2, 41, 2, 1138);
+    			add_location(ul, file$2, 42, 2, 1178);
+    			add_location(main, file$2, 40, 0, 1129);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1341,7 +1341,7 @@ var app = (function () {
     	$$subscribe_drinkNames();
 
     	onMount(async () => {
-    		fetch("https://www.thecocktaildb.com/api/json/v1/1/random.php").then(response => response.json()).then(data => {
+    		fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php').then(response => response.json()).then(data => {
     			console.log(data);
     			apiData.set(data);
     		}).catch(error => {
@@ -1411,8 +1411,8 @@ var app = (function () {
     			footer = element("footer");
     			small = element("small");
     			small.textContent = "© Copyright 2022, Ivan Chebykin";
-    			add_location(small, file$1, 1, 2, 27);
-    			attr_dev(footer, "class", "footer svelte-1lzuqvn");
+    			add_location(small, file$1, 1, 2, 26);
+    			attr_dev(footer, "class", "footer svelte-1b5xefn");
     			add_location(footer, file$1, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -1508,9 +1508,9 @@ var app = (function () {
     			t4 = space();
     			create_component(fotter.$$.fragment);
     			attr_dev(div, "class", "main");
-    			add_location(div, file, 11, 1, 395);
-    			attr_dev(main, "class", "svelte-lnmfd3");
-    			add_location(main, file, 9, 0, 376);
+    			add_location(div, file, 11, 2, 364);
+    			attr_dev(main, "class", "svelte-1juhsel");
+    			add_location(main, file, 9, 0, 342);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1611,8 +1611,8 @@ var app = (function () {
     const app = new App({
         target: document.body,
         props: {
-            name: 'world'
-        }
+            name: 'world',
+        },
     });
 
     return app;
